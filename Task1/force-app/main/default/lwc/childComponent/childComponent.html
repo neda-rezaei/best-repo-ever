@@ -1,0 +1,13 @@
+<template>
+    <template if:true={inputItem}>
+        <lightning-layout vertical-align="center">
+            <lightning-layout-item>
+                
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <p>{inputItem}</p>
+            </lightning-layout-item>
+            <lightning-button label="inputItem" class="slds-var-m-right_x-small" icon-name="Utility:Event" onclick={fireSelectEvent}></lightning-button>
+        </lightning-layout>
+    </template>
+</template>
